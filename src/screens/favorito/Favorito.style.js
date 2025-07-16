@@ -1,6 +1,7 @@
 export const styles = {
     constainer: {
-        padding: 16,
+        paddingLeft: 16,
+        paddingRight: 16,
         backgroundColor: '#fff',
     },
     empty: {

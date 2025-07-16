@@ -2,9 +2,9 @@ import Auth from "./src/Auth.route";
 import Public from "./src/Public.routes";
 
 export default function App() {
-  const user = true;
+  const isUserAuth = true;
 
   return (
-    user ? <Auth /> : <Public />
+    isUserAuth ? <Auth /> : <Public />
   );
 }
