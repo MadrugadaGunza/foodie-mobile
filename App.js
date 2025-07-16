@@ -1,10 +1,10 @@
-import Routes from './src/Routes.js';
-import Login from './src/screens/login/Login.jsx';
-import { styles } from './style.js'
-import { View } from 'react-native';
+import Auth from "./src/Auth.route";
+import Public from "./src/Public.routes";
 
 export default function App() {
+  const user = true;
+
   return (
-      <Routes/>
+    user ? <Auth /> : <Public />
   );
 }

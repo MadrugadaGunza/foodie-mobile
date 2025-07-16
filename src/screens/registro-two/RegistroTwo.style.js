@@ -1,4 +1,4 @@
-import { COLORS, FONT_SIZE } from "../../constatns/theme";
+import { COLORS, FONT_SIZE } from "../../constants/theme.js";
 
 export const styles = {
     container: {

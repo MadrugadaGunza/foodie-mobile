@@ -1,6 +1,6 @@
 import { styles } from './Header.style'
 import { Image, Text, View } from 'react-native'
-import icons from '../../constatns/icons'
+import icons from '../../constants/icons.js'
 
 const Header = ({ title }) => {
     return (
